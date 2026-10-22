@@ -39,7 +39,7 @@ Windows Registry Editor Version 5.00
 ; Git Profile
 [HKEY_CLASSES_ROOT\Directory\ContextMenus\WinTermCmd\shell\03Git]
 "MUIVerb"="Git Bash"
-"Icon"="C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico"
+"Icon"="C:\\Program Files\\Git\\ucrt64\\share\\git\\git-for-windows.ico"
 
 [HKEY_CLASSES_ROOT\Directory\ContextMenus\WinTermCmd\shell\03Git\command]
 @="wt.exe nt --profile \"Git Bash\" -d \"%v\""
@@ -105,7 +105,7 @@ Windows Registry Editor Version 5.00
 ; Git Profile
 [HKEY_CLASSES_ROOT\Directory\ContextMenus\WinTermAdminCmd\shell\03Git]
 "MUIVerb"="Git Bash"
-"Icon"="C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico"
+"Icon"="C:\\Program Files\\Git\\ucrt64\\share\\git\\git-for-windows.ico"
 "HasLUAShield"=""
 
 [HKEY_CLASSES_ROOT\Directory\ContextMenus\WinTermAdminCmd\shell\03Git\command]
